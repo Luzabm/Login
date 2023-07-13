@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function exibirAlerta() {
+      alert("Cadastro realizado com sucesso!");
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro</h1>
+    <form action="cadastro.php" method="post">
+      <input type="text" name="nome" placeholder="Nome">
+      <input type="email" name="email" placeholder="Email">
+      <input type="password" name="senha" placeholder="Senha">
+      <center><input type="submit" value="Cadastrar" onclick="exibirAlerta()"></center>
+    </form>
+  </div>
+</body>
+</html>
